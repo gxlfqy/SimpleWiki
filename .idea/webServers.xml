@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="092bc0d0-b565-44b5-ab10-eb2b01a022f9" name="ServerTomcat" url="http://j2ee.gxlfqy.xyz">
+        <fileTransfer host="j2ee.gxlfqy.xyz" port="22" rootFolder="/www/wwwroot/j2ee.gxlfqy.xyz" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

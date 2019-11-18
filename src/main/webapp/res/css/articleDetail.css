@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 1250px;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content{
+    width: 1250px;
+    min-width: 1250px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    flex: 1 0 auto;
+}
+
+/* 阅读更多 */
+.title_top{
+    width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    /* border-bottom: 5px dotted rgb(243, 199, 132); */
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.container {
+    width: 1050px;
+    margin: 20px auto 0;
+    padding-bottom: 15px;
+}
+.container h2{
+    /* text-align: center; */
+    font-size: 19px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(243, 199, 132,0.3);
+}
+.article_content {
+    margin-bottom: 30px;
+    color: #454545;
+    padding: 10px 10px 0 10px;
+    line-height:40px;
+}
+.readall_box {
+    width: 1050px;
+    position: relative;
+    z-index: 9999;
+    padding: 0 ;
+    margin-top: -200px;
+    text-align: center;
+}
+.readall_box .read_more_mask {
+    height: 200px;
+    background: -moz-linear-gradient(bottom,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    background: -webkit-gradient(linear,0 top,0 bottom,from(rgba(255,255,255,0)),to(#fff));
+    background: -o-linear-gradient(bottom,rgba(255,255,255,0.1),rgba(255,255,255,0));
+}
+.read_more_btn{
+    cursor:pointer;
+    font-size: 16px;
+    color: rgb(243, 199, 132);
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid rgb(243, 199, 132);
+    line-height: 30px;
+    padding:5px 10px;
+}
+.read_more_btn:hover,
+.hide_btn:hover{
+    background:rgb(243, 199, 132);
+    color:#fff;
+    cursor: pointer;
+}
+
+.hide_btn{
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    border-radius:4px;
+    border: 1px solid rgb(243, 199, 132);
+    color: rgb(243, 199, 132);
+    margin: 0 auto;
+}
+
+.edit_content{
+    font-size: 15px;
+    color: rgb(243, 199, 132);
+    font-weight: 400;
+    margin-left: 10px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.edit_content:hover{
+    cursor: pointer;
+}

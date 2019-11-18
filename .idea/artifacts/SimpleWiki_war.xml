@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SimpleWiki:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SimpleWiki</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="simplewiki-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SimpleWiki:war exploded" />
+    </root>
+  </artifact>
+</component>

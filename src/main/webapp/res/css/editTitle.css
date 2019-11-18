@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 1250px;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* 中间内容 */
+.mid_content{
+    flex: 1 0 auto;
+    width: 900px;
+    min-width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.edit_title{
+    font-size: 28px;
+    color: #555;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.origion_title,
+.new_title,
+.title_list{
+    width: 800px;
+    margin:0 auto;
+    font-size: 17px;
+    color: #555;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.origion_title span:first-child,
+.new_title span:first-child,
+.title_list span:first-child{
+    font-size: 18px;
+    color: #aaa;
+}
+.new_title textarea{
+    resize:none;/*禁止拉伸*/
+    outline: none;
+    width: 82%;
+    font-size: 17px;
+    color: #555;
+    padding: 5px 0;
+    height: 35px;
+    margin-bottom: -2px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-family: not specified;
+}
+::-webkit-input-placeholder{
+    font-size: 17px;
+    color:#777;
+}
+.title{
+    font-size: 18px;
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 6px;
+    background-color: rgb(250, 249, 249);
+    border-radius: 6px;
+    letter-spacing: 2px;
+    margin-top: 13px;
+}
+.word{
+    color: rgb(92, 91, 91) !important;
+    display: inline-block;
+    max-width: 420px;
+    overflow: hidden;/*超出部分隐藏*/
+    text-overflow:ellipsis;/* 超出部分显示省略号 */
+    white-space: nowrap;/*规定段落中的文本不进行换行 */
+}
+.btn_bg{
+    width: 800px;
+    overflow: hidden;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.btn{
+    width: 75px;
+    height: 33px;
+    background-color: #fff;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 3px;
+    border-radius: 33px;
+    color: rgb(224, 186, 126);
+    border: 1px solid rgb(224, 186, 126);
+}
+.btn:hover{
+    cursor: pointer;
+}
+.submit{
+    width: 105px;
+    background-color: rgb(224, 186, 126);
+    color: #fff;
+}

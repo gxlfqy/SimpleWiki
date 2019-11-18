@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 1250px;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 249, 249);
+}
+
+/* 中间内容 */
+.mid_content{
+    flex: 1 0 auto;
+    width: 1250px;
+    min-width: 1250px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    color: #aaaaaa;
+    box-sizing: border-box;
+}
+.articleTheme{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 15px 0 25px 0;
+    letter-spacing: 1px;
+    color: #999;
+}
+.title{
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.article_title,
+.content{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.title textarea{
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    resize:none;/*禁止拉伸*/
+    outline: none;
+    width: 860px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    border-radius: 2px;
+    line-height: 28px;
+}
+.article_content{
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.word{
+    width: 860px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+}
+.w-e-text-container{
+    height: 500px !important;
+}
+.btn_bg{
+    width: 900px;
+    min-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.btn_bg div{
+    width: 70px;
+    height: 32px;
+    line-height: 32px;
+    float: right;
+    font-size: 16px;
+    border-radius: 3px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.publish{
+    background-color: #999;
+    color: #fff;
+    margin-right: 20px;
+}
+.publish:hover{
+    cursor: pointer;
+    background-color: #777;
+}
+.preview{
+    border: 1px solid #999;
+    background-color: #fff;
+    color: #999;
+    margin-right: 30px;
+}
+.preview:hover{
+    cursor: pointer;
+    border-color: #777;
+    color: #777;
+}
+#footer{
+    margin-top: 50px;
+}
+ul li {
+    list-style: disc !important;
+}
+ol li {
+    list-style: decimal !important;
+}

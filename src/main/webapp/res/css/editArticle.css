@@ -1,0 +1,12 @@
+/* 取消按钮 */
+.cancle{
+    border: 1px solid #999;
+    background-color: #fff;
+    color: #999;
+    margin-right: 30px;
+}
+.cancle:hover{
+    cursor: pointer;
+    border-color: #777;
+    color: #777;
+}

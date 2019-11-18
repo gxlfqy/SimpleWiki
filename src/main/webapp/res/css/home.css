@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 1250px;
+    height: 100%;
+}
+.user:hover,
+.exit:hover,
+.left img:hover,
+.main_title span:last-child:hover,
+.footer_img:hover{
+    cursor: pointer;
+}
+/* 中间内容 */
+.mid_content{
+    width: 1250px;
+    min-width: 1250px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    flex: 1 0 auto;
+}
+.nav_bg{
+    width: 1000px;
+    margin: 0 auto;
+}
+.layui-tab-title .layui-this{
+    color: rgb(224, 186, 126) !important;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.layui-tab-title{
+    border-bottom-width: 1px;
+}
+.layui-tab-title li{
+    color: #777 !important;
+    font-size: 18px !important;
+    letter-spacing: 3px;
+    padding:0 20px !important;
+}
+.layui-tab-title .layui-this:after{
+    border-width: unset !important;
+    border-left-width: 1px !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+}
+.layui-tab-content{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.text{
+    font-size: 26px;
+}
+.edit_btn{
+    font-size: 16px;
+    color: rgb(224, 186, 126);
+    text-decoration: underline;
+    margin-left: 15px;
+}
+.edit_btn:hover{
+    cursor: pointer;
+}
+.message{
+    color: #777;
+    padding: 20px 0;
+    padding-left: 30px;
+    font-size: 17px;
+}
+/* 最近编辑 */
+.edit_record_content{
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+.item{
+    width: 65%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow:  2px 2px 5px rgba(247, 245, 245);
+    background-color: rgba(247, 245, 245, 0.5);
+}
+.theme,
+.editTitle{
+    height: 45px;
+    line-height: 45px;
+    color: #ccc;
+    font-size: 16px;
+    padding-left: 15px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+.editTitle:hover{
+    cursor: pointer;
+}
+.editTitle span:last-child{
+    color: #888;
+}
+.editTitle{
+    border: none;
+    background-color: #fff;
+    overflow: hidden;/*超出部分隐藏*/
+    text-overflow:ellipsis;/* 超出部分显示省略号 */
+    white-space: nowrap;/*规定段落中的文本不进行换行 */
+}
+.editTitle+.editTitle{
+    border-top: 1px solid rgb(248, 247, 247);
+}
+.edit_text{
+    font-size: 15px;
+    color: #7b1e0f;
+    font-weight: 400;
+    margin-right: 20px;
+    text-decoration: underline;
+    float: right;
+    letter-spacing: 2px;
+}
+.edit_text:hover{
+    cursor: pointer;
+}
+.editTitle:hover{
+    background-color: rgb(243, 242, 242, 0.5);
+}
